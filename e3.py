@@ -29,6 +29,7 @@ finaldata["Share"]= finaldata["Republican"] / finaldata["Total Votes Cast"]
 
 # creat a list for the counties we want
 county_list = ["Accomack County","Albemarle County","Alexandria City","Alleghany County"]
+plotname_list = ["accomack_county","albemarle_county","alexandria_city","alleghany_county"]
 
 # a function for plot
 def plot(i):
@@ -42,7 +43,7 @@ def plot(i):
     return ax
 
 # loop over the counties to plot and save 
-for i in county_list: 
-    plotfile_name = "{}.pdf".format(i)
-    plot(i).figure.savefig(plotfile_name)
+for i in range(0,4):
+    plotfile_name = "{}.pdf".format(plotname_list[i])
+    plot(county_list[i]).figure.savefig(plotfile_name)
 
