@@ -1,0 +1,78 @@
+* {
+  font-family: 'Catamaran', sans-serif;
+}
+
+body { margin: 0 10%; }
+
+h1 { color: black; }
+
+h2.space {
+  padding: 10px 0px 0px 0px
+}
+
+ul.nav {
+  margin: 0;
+  padding: 0;
+  background-color: #FF9966;
+}
+
+ul.nav li { display: inline; }
+
+ul.nav li a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul.nav li a:hover {
+  background-color: #999999;
+  transition: 0s;
+}
+
+ul.nav li:hover {
+  background-color: #999999;
+  transition: 0s;
+}
+
+img.fir {
+  border: 5px;
+  margin: 0px 40px 0px 100px ;
+  float: left;
+}
+
+img.last {
+  border: 10px;
+  border-style: solid;
+  border-color: white;
+  display: block;
+  float: none;
+}
+
+table {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FF9966;
+  background: white;
+  padding: 0px;
+  width: 100%;
+  border-spacing: 0px;
+  margin: 0px 0px;
+}
+
+th {
+  color: white;
+  background-color: #FF9966;
+}
+
+th, td {
+  padding: 3px 15px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #FF9966;
+  text-align:center;
+}
+
+b {
+  color: #FF9966;
+}
